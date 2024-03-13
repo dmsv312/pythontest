@@ -1,0 +1,2 @@
+{ "jsonrpc": "2.0", "method": "subscribe", "id": "0", "params": { "query": "tm.event='Tx' AND message.sender='evmos1dkw5nng63jk7fye989zhw4jlfs6r8v23u0ye03'" }}
+{ "jsonrpc": "2.0", "method": "subscribe", "id": "0", "params": { "query": "tm.event='Tx' AND transfer.sender='evmos1dkw5nng63jk7fye989zhw4jlfs6r8v23u0ye03'" }}
