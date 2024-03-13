@@ -25,7 +25,7 @@ for char in axelar:
     sleep(1)
 pyautogui.moveTo(670, 600, 1)
 pyautogui.click()
-sleep(5)
+sleep(7)
 # pick usdc
 pyautogui.moveTo(703, 649, 2)
 pyautogui.click()
@@ -35,7 +35,7 @@ for char in axelar:
     sleep(1)
 pyautogui.moveTo(670, 600, 1)
 pyautogui.click()
-sleep(5)
+sleep(7)
 pyautogui.moveTo(867, 649, 1)
 pyautogui.click()
 usdc = 'axlu'
@@ -44,14 +44,14 @@ for char in usdc:
     sleep(1)
 pyautogui.moveTo(656, 539, 1)
 pyautogui.click()
-sleep(5)
+sleep(7)
 # connect wallet
 pyautogui.moveTo(928, 401, 1)
 pyautogui.click()
 sleep(1)
 pyautogui.moveTo(667, 491, 1)
 pyautogui.click()
-sleep(3)
+sleep(7)
 # go to value field and write amount from back
 pyautogui.moveTo(646, 502, 2)
 pyautogui.click()
