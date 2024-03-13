@@ -51,7 +51,7 @@ pyautogui.click()
 sleep(1)
 pyautogui.moveTo(667, 491, 1)
 pyautogui.click()
-sleep(7)
+sleep(12)
 # go to value field and write amount from back
 pyautogui.moveTo(646, 502, 2)
 pyautogui.click()
