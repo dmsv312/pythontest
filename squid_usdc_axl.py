@@ -51,7 +51,7 @@ pyautogui.click()
 sleep(1)
 pyautogui.moveTo(667, 491, 1)
 pyautogui.click()
-sleep(7)
+sleep(12)
 # click all button amount
 pyautogui.moveTo(947, 542, 2)
 pyautogui.click()
