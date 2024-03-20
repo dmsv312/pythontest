@@ -5,7 +5,7 @@ import random
 # response = requests.get('http://127.0.0.1:8000/api/v1/next-transaction')
 # x = response.json()
 # amount = x["amount"]
-amount = random.randrange(5, 15, 01)/10
+amount = random.randrange(5, 15, 1)/10
 pyautogui.PAUSE = 2
 sleep(1)
 # open chrome
