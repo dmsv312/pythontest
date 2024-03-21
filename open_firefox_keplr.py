@@ -1,6 +1,8 @@
 import pyautogui
 from time import sleep
 pyautogui.PAUSE = 2
+pyautogui.moveTo(1294, 10, 1)
+pyautogui.click()
 sleep(1)
 pyautogui.moveTo(40, 12, 1)
 pyautogui.click()
