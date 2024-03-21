@@ -96,3 +96,7 @@ sleep(3)
 # close mozilla
 pyautogui.moveTo(1587, 32, 3)
 pyautogui.click()
+sleep(1)
+# go to 1 screen
+pyautogui.moveTo(1228, 14, 1)
+pyautogui.click()
