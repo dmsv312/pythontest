@@ -41,3 +41,7 @@ sleep(10)
 # close window
 pyautogui.moveTo(1582, 47, 1)
 pyautogui.click()
+sleep(1)
+# go back to 1 screen
+pyautogui.moveTo(1120, 14, 2)
+pyautogui.click()
