@@ -37,3 +37,7 @@ sleep(1)
 # click claim
 pyautogui.moveTo(796, 572, 1)
 pyautogui.click()
+sleep(10)
+# close window
+pyautogui.moveTo(1582, 47, 1)
+pyautogui.click()
