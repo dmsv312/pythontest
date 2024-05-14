@@ -47,7 +47,7 @@ pyautogui.click()
 # click continue
 pyautogui.moveTo(784, 920, 1)
 pyautogui.click()
-sleep(4)
+sleep(10)
 # click no thanks
 pyautogui.moveTo(716, 1178, 1)
 pyautogui.click()
