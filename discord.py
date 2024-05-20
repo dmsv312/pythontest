@@ -2,9 +2,13 @@ import pyautogui
 import os
 from dotenv import load_dotenv
 from time import sleep
+import random
 pyautogui.PAUSE = 2
 load_dotenv()
 address = os.getenv('ADDRESS')
+frases = ['GM', 'gm', 'GN', 'gn', 'Gmonad', 'GM guys', 'GM Monad chat', 'GM have a nice day chat', 'GN fam', 'GM fam', 'GM nads', 'GM GN', 'GM friends']
+x = random.randint(1, 13)
+frase = frases[x]
 # go to 2 screen
 pyautogui.moveTo(1154, 10, 2)
 pyautogui.click()
@@ -27,7 +31,7 @@ pyautogui.click()
 pyautogui.moveTo(417, 1155, 2)
 pyautogui.click()
 sleep(1)
-pyautogui.write('GM')
+pyautogui.write(frase)
 pyautogui.press('enter')
 sleep(1)
 pyautogui.hotkey('ctrl', 'w')
