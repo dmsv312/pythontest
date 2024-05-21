@@ -99,9 +99,6 @@ pyautogui.moveTo(1591, 42, 3)
 pyautogui.click()
 sleep(1)
 # go to 1 screen
-pyautogui.moveTo(1125, 14, 1)
+pyautogui.moveTo(1151, 14, 1)
 pyautogui.click()
 sleep(1)
-# go to 1 screen
-pyautogui.moveTo(1228, 14, 1)
-pyautogui.click()
